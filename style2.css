@@ -1,0 +1,84 @@
+header{
+    background-color: black;
+    border: 1px solid red;
+    padding: 20px;
+    font-size: xx-large;
+    position: fixed;
+    top:0px;
+    left: 0px;
+    width: 1500px;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    padding-left: 200px;
+}
+.image{
+    margin-bottom:100px
+}
+.veg li:before{
+    content: url(./Images/veg.png);
+    padding: 10px;
+}
+.veg li{
+    list-style-type: none;
+}
+.veg{
+    border: 2px solid  green ;
+    width: fit-content;
+    background-color: #7ed87e;
+}
+.non li:before{
+    content: url(./Images/non.png);
+    padding: 10px;
+}
+.non li{
+    list-style-type: none;
+}
+.non{
+    border: 2px solid  red ;
+    width: fit-content;
+    background-color: #e24a4a;
+    margin-left: 500px;
+}
+.veg:hover{
+    border:5px solid yellowgreen;
+    background-color: #e24a4a;
+    font-size:x-large ;
+    transition: all 5s;
+}
+.non:hover{
+    border:5px solid rgb(111, 153, 26);
+    background-color: #5d1dd3;
+    font-size:x-large ;
+    transition: all 5s;
+}
+.parent{
+    margin-bottom: 100px;
+}
+.comment{
+    margin-left: 500px;
+    margin-bottom: 100px;
+}
+textarea:hover{
+    background-color: hwb(0 22% 76%);
+}
+footer{
+    color: white;
+    border:2px solid white;
+    width: fit-content;
+    transition: all 8s;
+}
+footer:hover{
+    padding-right: 1300px;
+    background-color: hsl(332, 71%, 50%);
+    
+}
+details{
+    margin-left: 500px;
+    color: white;
+}
+a:hover{
+    background-color: grey;
+    width: fit-content;
+}
